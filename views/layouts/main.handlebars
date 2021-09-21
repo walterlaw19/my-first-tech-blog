@@ -12,20 +12,28 @@
   <div class="wrapper">
     <header>
       <h1>
-        <a href="/">Welcome to My First Tech Blog</a>
+        <a href="/">Homepage</a>
       </h1>
       <nav>
+        {{#if loggedIn}}
+        <a href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style">logout</button>
+        {{else}}
         <a href="/login">login</a>
+        {{/if}}
       </nav>
     </header>
     <main>
       {{{ body }}}
     </main>
     <footer>
-      Thanks for visiting and do not forget to share us on your social media
+      Thanks for visiting and don't forget to share us on your social media!
     </footer>
   </div>
-
+  
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
 </body>
 
 </html>

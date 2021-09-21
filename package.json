@@ -1,33 +1,36 @@
 {
-  "name": "my-first-tech-blog",
+  "name": "just-tech-news",
   "version": "1.0.0",
-  "description": "coding my first tech blog from scratch",
-  "main": "index.js",
+  "description": "create database",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/walterlaw19/my-first-tech-blog.git"
+    "url": "git+https://github.com/walterlaw19/just-tech-news.git"
   },
   "keywords": [
-    "first",
-    "tech",
-    "blog",
-    "back-end"
+    "news"
   ],
   "author": "WG",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/walterlaw19/my-first-tech-blog/issues"
+    "url": "https://github.com/walterlaw19/just-tech-news/issues"
   },
-  "homepage": "https://github.com/walterlaw19/my-first-tech-blog#readme",
+  "homepage": "https://github.com/walterlaw19/just-tech-news#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
     "mysql2": "^2.3.0",
     "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0"
   }
 }
