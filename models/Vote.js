@@ -3,7 +3,7 @@
 
 // class Vote extends Model {}
 
-// Vote.init(
+// Vote.init(1
 //   {
 //     id: {
 //       type: DataTypes.INTEGER,
