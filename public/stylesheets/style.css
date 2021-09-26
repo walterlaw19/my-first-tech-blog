@@ -8,21 +8,24 @@ body, html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
+  background-color: #3d3a3a;
 }
+
+
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: rgb(10, 128, 182);
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: #979fa8;
 }
 
 button {
-  background-color: #225ca3;
+  background-color: saddlebrown;
   border: 0;
   padding: 1%;
   color: white;
@@ -33,7 +36,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: #737577;
 }
 
 .post-list {
@@ -82,14 +85,16 @@ header {
   padding: 0 1%;
 }
 
-header h1 {
-  font-size: 1em;
+
+
+header nav {
+  font-size: 30px;
 }
 
 main {
   flex: 1;
   padding: 2% 4%;
-  background-color: darkkhaki;
+  background-color: #d9e9d3;
 }
 
 .btn-no-style {
