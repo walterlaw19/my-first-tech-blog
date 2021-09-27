@@ -123,6 +123,8 @@ main {
   background-color: #ff643d;
 }
 
+
+
 .post {
   margin-bottom: 2%;
   line-height: 150%;
@@ -168,7 +170,8 @@ main {
 }
 
 .new-post-form input {
-  width: 300px;
+  width: 450px;
+  
 }
 
 .edit-post-form {
