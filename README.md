@@ -17,8 +17,9 @@ An application to post comments/news/ideas and suggestions about technology and 
 
 ## Demo
 
-![](Readme-images/screenshot1.PNG) ""
-![](Readme-images/screenshot2.PNG) ""
+![](Readme-images/screenshot1.PNG) "create post"
+![](Readme-images/screenshot2.PNG) "view all posts"
+![](Readme-images/screenshot3.PNG) "view/add comments"
 
 
 ## Usage
