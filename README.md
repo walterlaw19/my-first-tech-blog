@@ -9,6 +9,7 @@ An application to post comments/news/ideas and suggestions about technology and 
 ## Table of Contents
 
 * [Demo](#demo)
+* [Deployment](#deployment)
 * [Usage](#usage)
 * [License](#license)
 * [Contribution](#contribution)
@@ -21,6 +22,10 @@ An application to post comments/news/ideas and suggestions about technology and 
 ![](Readme-images/screenshot2.PNG) "view all posts"
 ![](Readme-images/screenshot3.PNG) "view/add comments"
 
+## Deployment
+
+click here to view the application:
+https://walt-first-tech-blog.herokuapp.com/
 
 ## Usage
 
